@@ -1,0 +1,14 @@
+{
+  "scheduledTasks": [],
+  "scheduledTaskSessionIgnores": [],
+  "sessionDirectoryCache": {
+    "version": 1,
+    "lastSyncedUpdatedAt": 1787879720385,
+    "directories": [
+      {
+        "worktree": "/home/salar/projects",
+        "lastUpdated": 1787879720385
+      }
+    ]
+  }
+}
