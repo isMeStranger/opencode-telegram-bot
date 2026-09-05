@@ -7,12 +7,12 @@ Wants=network.target
 Type=simple
 User=root
 Group=root
-WorkingDirectory=/home/salar/projects/opencode-telegram-bot
-EnvironmentFile=/home/salar/projects/opencode-telegram-bot/.env
+WorkingDirectory=/opt/opencode-telegram-bot
+EnvironmentFile=/opt/opencode-telegram-bot/.env
 EnvironmentFile=/etc/opencode.env
-Environment=PATH=/home/salar/.local/bin:/home/salar/.local/lib/nodejs/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-Environment=OPENCODE_TELEGRAM_HOME=/home/salar/projects/opencode-telegram-bot
-ExecStart=/home/salar/.local/bin/node /home/salar/.local/bin/opencode-telegram start
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
+Environment=OPENCODE_TELEGRAM_HOME=/opt/opencode-telegram-bot
+ExecStart=/usr/local/bin/opencode-telegram start
 Restart=on-failure
 RestartSec=5
 

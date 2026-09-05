@@ -3,5 +3,5 @@ node_modules/
 logs/
 run/
 settings.json
-*.logsettings.json.bak
 *.bak
+*.log
