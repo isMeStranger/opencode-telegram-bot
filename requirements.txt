@@ -1,0 +1,41 @@
+# OpenCode Telegram Bot - Requirements
+#
+# This project has a single runtime dependency managed by npm (Node.js package manager).
+# There is no separate Python requirements.txt; the canonical dependency list lives
+# in the npm package itself. To install it globally, run:
+
+npm install -g @grinev/opencode-telegram-bot@latest
+
+# ==============================================================================
+# System Requirements
+# ==============================================================================
+#
+# Linux:
+#   - OS: Ubuntu/Debian (or any distro with systemd)
+#   - Node.js 18+  (includes npm)
+#   - An opencode server already running locally (e.g. `opencode web`) with basic auth
+#   - A Telegram bot token from @BotFather
+#   - A Telegram user ID (the only person allowed to use the bot)
+#
+# Windows:
+#   - OS: Windows 10/11
+#   - Node.js 18+  (includes npm)
+#   - PowerShell (built in)
+#   - An opencode server already running locally (e.g. `opencode web`) with basic auth
+#   - A Telegram bot token from @BotFather
+#   - A Telegram user ID (the only person allowed to use the bot)
+#   - Elevation (Run as Administrator) only when installing the auto-start task
+#
+# ==============================================================================
+# Install
+# ==============================================================================
+#
+# Linux:
+#   npm install -g @grinev/opencode-telegram-bot@latest
+#
+# Windows (use PowerShell):
+#   powershell -ExecutionPolicy Bypass -File install.ps1
+#   # install.ps1 runs: npm install -g @grinev/opencode-telegram-bot@latest
+#
+# Verify the bot is available on PATH:
+#   opencode-telegram --help
